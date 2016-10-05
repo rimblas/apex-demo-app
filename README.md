@@ -1,4 +1,4 @@
-## APEX Demo App
+# APEX Demo App
 You can find and run this app at <a href="https://apex.oracle.com/pls/apex/f?p=46011">apex.oracle.com/pls/apex/f?p=46011</a> or related blog posts at [http://rimlas.com](rimblas.com)
 
 ## Dependencies
