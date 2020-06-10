@@ -8,6 +8,7 @@ You can find and run this app at <a target="_blank" href="https://apex.oracle.co
 * Disabled Checkboxes (p200)
 * Dynamic Modal Dialog Titles [blog](http://rimblas.com/blog/2016/11/dynamic-modal-dialog-titles-in-apex5)
 * Add a "Reset" button to your Interactive Reports (p410) [blog](https://rimblas.com/blog/2019/02/add-a-reset-button-to-your-interactive-reports/)
+* Use APEX Shortcuts for your Clear Item Button or Link (p510) [blog](https://rimblas.com/blog/2020/06/use-apex-shortcuts-for-your-clear-item-button-or-link/)
 
 
 ## Dependencies
