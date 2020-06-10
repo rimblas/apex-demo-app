@@ -28,7 +28,7 @@ prompt APPLICATION 46011 - rimblas.com/blog Examples
 -- Application Export:
 --   Application:     46011
 --   Name:            rimblas.com/blog Examples
---   Date and Time:   14:51 Wednesday June 10, 2020
+--   Date and Time:   15:03 Wednesday June 10, 2020
 --   Exported By:     JORGE@RIMBLAS.COM
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -85,7 +85,7 @@ wwv_flow_api.create_flow(
 ,p_page_protection_enabled_y_n=>'Y'
 ,p_checksum_salt=>'0392F3670A04F67D3980C54C5433B4D15CA6892A566DB4DFAB8DE351660977D7'
 ,p_bookmark_checksum_function=>'SH512'
-,p_compatibility_mode=>'5.0'
+,p_compatibility_mode=>'19.2'
 ,p_flow_language=>'en'
 ,p_flow_language_derived_from=>'FLOW_PRIMARY_LANGUAGE'
 ,p_direction_right_to_left=>'N'
@@ -101,7 +101,7 @@ wwv_flow_api.create_flow(
 ,p_public_user=>'APEX_PUBLIC_USER'
 ,p_proxy_server=>nvl(wwv_flow_application_install.get_proxy,'')
 ,p_no_proxy_domains=>nvl(wwv_flow_application_install.get_no_proxy_domains,'')
-,p_flow_version=>'release 1.0'
+,p_flow_version=>'release 2.0'
 ,p_flow_status=>'AVAILABLE_W_EDIT_LINK'
 ,p_flow_unavailable_text=>'This application is currently unavailable at this time.'
 ,p_exact_substitutions_only=>'Y'
@@ -114,7 +114,7 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_02=>'SELECT2_VERSION'
 ,p_substitution_value_02=>'2.6.3'
 ,p_last_updated_by=>'JORGE@RIMBLAS.COM'
-,p_last_upd_yyyymmddhh24miss=>'20200610142134'
+,p_last_upd_yyyymmddhh24miss=>'20200610145952'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>2
 ,p_ui_type_name => null
@@ -18462,9 +18462,7 @@ wwv_flow_api.create_user_interface(
 ,p_navigation_list_id=>wwv_flow_api.id(8640273627297504302)
 ,p_navigation_list_position=>'SIDE'
 ,p_navigation_list_template_id=>wwv_flow_api.id(8640308037374504343)
-,p_nav_list_template_options=>'#DEFAULT#'
-,p_include_legacy_javascript=>'18'
-,p_include_jquery_migrate=>true
+,p_nav_list_template_options=>'#DEFAULT#:js-defaultCollapsed:js-navCollapsed--hidden:t-TreeNav--classic'
 ,p_nav_bar_type=>'LIST'
 ,p_nav_bar_list_id=>wwv_flow_api.id(8640315799972504368)
 ,p_nav_bar_list_template_id=>wwv_flow_api.id(8640307934440504343)
